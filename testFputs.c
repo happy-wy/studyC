@@ -11,7 +11,7 @@ int main() {
 	if((fp=fopen("hello.txt","r+"))==NULL) {
 		printf("Cannot open file, press any key to exit!\n");
 		getch();
-    exit(1);
+    		exit(1);
 	}
 	
 	fputs(c,fp); \\写入
