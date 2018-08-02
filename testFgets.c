@@ -14,8 +14,8 @@ int main() {
     	exit(1);
 	}
 	
-    while(fgets(s,N,fp) != NULL) {     //读取字符串 
-    	printf("%s",s);
+    	while(fgets(s,N,fp) != NULL) {     //读取字符串 
+    		printf("%s",s);
 	}
 	
 	fclose(fp);
